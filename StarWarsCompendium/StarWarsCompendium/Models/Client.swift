@@ -64,3 +64,49 @@ struct Character: Codable{
     }
     
 }
+import Foundation
+
+struct StarShip: Codable {
+    
+    let MGLT: String
+    let cargoCapacity: String
+    let consumables: String
+    let costInCredits: String
+    let created: String
+    let crew: String
+    let edited: String
+    let hyperDriveRating: String
+    let length: String
+    let manufacturer: String
+    let maxAtmospheringSpeed: String
+    let model: String
+    let name: String
+    let passengers: String
+    let films: [String]?
+    let pilots: [String]?
+    let starShipClass: String
+    
+    enum CodingKeys: String, CodingKey{
+        case MGLT
+        case consumables
+        
+        case created
+        case crew
+        case edited
+        
+        case length
+        case manufacturer
+        case model
+        case name
+        case passengers
+        case films
+        case pilots
+        
+        case costInCredits = "cost_in_credits"
+        case maxAtmospheringSpeed = "max_atmosphering_speed"
+        case cargoCapacity = "cargo_capacity"
+        case hyperDriveRating = "hyperdrive_rating"
+        case starShipClass = "starship_class"
+        
+    }
+}

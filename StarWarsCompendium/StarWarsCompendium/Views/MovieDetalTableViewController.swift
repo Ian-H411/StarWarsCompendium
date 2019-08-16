@@ -52,12 +52,18 @@ class MovieDetalTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "tocharacterdetail" {
-            
             if let toDetailVC = segue.destination as? CharacterTableViewController {
                 guard let movie = landingPad else {return}
                 let stringsToSend =  movie.characters
                 toDetailVC.landingPad = stringsToSend
-                
+            }
+        } else {
+            if segue.identifier == "tostarships"{
+                if let toStarShipVC = segue.destination as? StarShipTableViewController{
+                    guard let movie = landingPad else {return}
+                    let stringsToSend = movie.starships
+                    toStarShipVC.landingPad = stringsToSend
+                }
             }
         }
     }

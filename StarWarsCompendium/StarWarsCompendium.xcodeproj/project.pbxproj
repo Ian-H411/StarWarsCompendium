@@ -22,6 +22,9 @@
 		25227378230617D000D66142 /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25227377230617D000D66142 /* CharacterController.swift */; };
 		2522737A2306289800D66142 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252273792306289800D66142 /* CharacterTableViewController.swift */; };
 		2522737C23062AF600D66142 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2522737B23062AF600D66142 /* CharacterTableViewCell.swift */; };
+		2522737E230631FF00D66142 /* StarShipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2522737D230631FF00D66142 /* StarShipModel.swift */; };
+		252273802306349600D66142 /* StarShipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2522737F2306349600D66142 /* StarShipTableViewController.swift */; };
+		2522738223063C0C00D66142 /* StarshipDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2522738123063C0C00D66142 /* StarshipDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		25227377230617D000D66142 /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
 		252273792306289800D66142 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
 		2522737B23062AF600D66142 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		2522737D230631FF00D66142 /* StarShipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShipModel.swift; sourceTree = "<group>"; };
+		2522737F2306349600D66142 /* StarShipTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShipTableViewController.swift; sourceTree = "<group>"; };
+		2522738123063C0C00D66142 /* StarshipDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 				252273392305BBE600D66142 /* Client.swift */,
 				2522733B2305BE4300D66142 /* Movie.swift */,
 				252273752306175000D66142 /* Characters.swift */,
+				2522737D230631FF00D66142 /* StarShipModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,6 +119,8 @@
 				25227373230612DF00D66142 /* MovieDetalTableViewController.swift */,
 				252273792306289800D66142 /* CharacterTableViewController.swift */,
 				2522737B23062AF600D66142 /* CharacterTableViewCell.swift */,
+				2522737F2306349600D66142 /* StarShipTableViewController.swift */,
+				2522738123063C0C00D66142 /* StarshipDetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +209,7 @@
 				2522733E2305BF6400D66142 /* MovieController.swift in Sources */,
 				2522733A2305BBE600D66142 /* Client.swift in Sources */,
 				2522736E2305FFFE00D66142 /* MovieTableViewCell.swift in Sources */,
+				252273802306349600D66142 /* StarShipTableViewController.swift in Sources */,
 				25227378230617D000D66142 /* CharacterController.swift in Sources */,
 				2522737A2306289800D66142 /* CharacterTableViewController.swift in Sources */,
 				252273242305B9CB00D66142 /* AppDelegate.swift in Sources */,
@@ -207,8 +217,10 @@
 				252273402305DA1700D66142 /* MoviesTableViewController.swift in Sources */,
 				25227374230612DF00D66142 /* MovieDetalTableViewController.swift in Sources */,
 				2522736C2305F4AF00D66142 /* StarshipController.swift in Sources */,
+				2522737E230631FF00D66142 /* StarShipModel.swift in Sources */,
 				2522733C2305BE4300D66142 /* Movie.swift in Sources */,
 				2522737C23062AF600D66142 /* CharacterTableViewCell.swift in Sources */,
+				2522738223063C0C00D66142 /* StarshipDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
